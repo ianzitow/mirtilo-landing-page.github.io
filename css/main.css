@@ -98,7 +98,12 @@ textarea {
    ========================================================================== */
 
 body {
-    background: #1449bf url("../img/d7689ca1-02c8-4605-9505-b5a0bedd7a06.jpg") center center fixed/cover;
+    background-color: #1449bf;
+    background-image: url("../img/d7689ca1-02c8-4605-9505-b5a0bedd7a06.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Barlow', sans-serif;
 }
 
