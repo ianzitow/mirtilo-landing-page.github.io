@@ -237,6 +237,9 @@ ul {
       width: 100%;
       padding: 0px;
   }
+  .img-content {
+    margin: 0 auto;
+  }
 }
 
 /*
