@@ -113,12 +113,12 @@ h1 {
     color: #1449bf;
     font-weight: 700;
     text-align: center;
-
+    padding: 0 10px 0 10px;
 }
 
-p {
+.promo {
     text-align: center;
-    padding: 40px 20px 40px 20px;
+    padding: 30px 40px 30px 40px;
 }
 
 label {
@@ -194,7 +194,11 @@ label {
 .icon-content {
     display: flex;
     justify-content: center;
-    padding: 40px;
+}
+
+.bottom {
+  padding: 40px;
+  text-align: center;
 }
 
 .icon {
@@ -203,6 +207,10 @@ label {
 
 .mc-field-group {
   padding: 20px;
+}
+
+.img-content {
+  margin: 0 0 0 auto;
 }
 
 /*
@@ -228,6 +236,9 @@ label {
       margin: 100px auto;
       width: 100%;
       padding: 0px;
+  }
+  .img-content {
+    margin: 0 auto;
   }
 }
 
