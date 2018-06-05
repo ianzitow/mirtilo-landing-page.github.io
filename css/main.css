@@ -151,6 +151,7 @@ label {
     margin-top: 40px;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
 }
 
 #mc_embed_signup {
@@ -187,15 +188,47 @@ label {
 .clear {
     display: flex;
     justify-content: center;
+    padding: 0 20px 0 20px;
 }
 
 .icon-content {
     display: flex;
     justify-content: center;
+    padding: 40px;
 }
 
 .icon {
     fill: #1449bf !important;
+}
+
+.mc-field-group {
+  padding: 20px;
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #mc_embed_signup {
+      margin: 10px auto;
+      width: 100%;
+  }
+  .mirtilo-form {
+      margin: 100px auto;
+      width: 100%;
+      padding: 0px;
+  }
 }
 
 /* ==========================================================================
