@@ -230,10 +230,11 @@ ul {
     margin: 0 !important;
     padding: 5px 10px;
     background-color: #ffffff !important;
-    font-weight: 700;
+    font-weight: 700 !important;
     z-index: 1;
     color: #E51C72 !important;
     font-family: 'Barlow', sans-serif;
+    font-size: 12px;
 }
 
 #mc_embed_signup input.mce_inline_error {
