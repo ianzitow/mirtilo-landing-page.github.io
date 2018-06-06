@@ -214,6 +214,16 @@ label {
   padding: 20px 20px 0px 20px;
 }
 
+.mc-field-group-smaller {
+  height: 50px;
+  padding: 20px 20px 0px 20px;
+}
+
+.input-group {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
 .img-content {
   margin: 0 0 0 auto;
 }
@@ -225,6 +235,11 @@ ul {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
+}
+
+h4 {
+  padding: 0;
+  margin: 0 0 10px 0;
 }
 
 #mc_embed_signup div.mce_inline_error {
@@ -243,7 +258,7 @@ ul {
 }
 
 [type="checkbox"], [type="radio"] {
-    margin: 0 4px 0 0;
+    margin: 0 3px 0 0;
 }
 
 .icon {
@@ -254,9 +269,10 @@ ul {
   margin: 0 10px 0 0;
 }
 
-input:focus{
-  outline: 2px solid #E51C72;
-  outline-offset: 1px;
+input:focus {
+  outline: 0px solid #E51C72;
+  outline-offset: 0px;
+  border-bottom-color: #E51C72;
 }
 
 /*
