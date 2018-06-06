@@ -241,6 +241,23 @@ ul {
     border-color: #E51C72 !important;
 }
 
+[type="checkbox"], [type="radio"] {
+    margin: 0 4px 0 0;
+}
+
+.icon {
+  background: #16ed8e;
+}
+
+.facebook-icon {
+  margin: 0 10px 0 0;
+}
+
+input:focus{
+  outline: 2px solid #E51C72;
+  outline-offset: 1px;
+}
+
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
