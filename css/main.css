@@ -128,7 +128,6 @@ h1 {
 
 label {
     display: inline-block;
-    margin-top: 1rem;
     text-transform: uppercase;
     color: #1449bf;
     font-weight: 700;
@@ -221,6 +220,43 @@ label {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+#mc_embed_signup div.mce_inline_error {
+    margin: 0 !important;
+    padding: 5px 10px;
+    background-color: #ffffff !important;
+    font-weight: 700 !important;
+    z-index: 1;
+    color: #E51C72 !important;
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+}
+
+#mc_embed_signup input.mce_inline_error {
+    border-color: #E51C72 !important;
+}
+
+[type="checkbox"], [type="radio"] {
+    margin: 0 4px 0 0;
+}
+
+.icon {
+  background: #16ed8e;
+}
+
+.facebook-icon {
+  margin: 0 10px 0 0;
+}
+
+input:focus{
+  outline: 2px solid #E51C72;
+  outline-offset: 1px;
 }
 
 /*
@@ -260,6 +296,9 @@ ul {
   }
   .img-content {
     margin: 0 auto;
+  }
+  ul {
+    column-count: 2;
   }
 }
 
